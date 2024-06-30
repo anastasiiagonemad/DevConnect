@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://anastasiiagonemad:yGFcLmPEjJRCrU1Y@cluster0.dmursiw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "Ov23liS4HWw0FEG9Qj7e",
+  "githubSecret": "a5b4bfbeec0b13450e91b8c260f029e52627f773"
+}

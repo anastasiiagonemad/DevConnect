@@ -5,9 +5,11 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "Brad Traversy",
+  "author": "Anastasiia Kucheriavaia",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -16,10 +18,13 @@
     "express-validator": "^7.1.0",
     "gravatar": "^1.8.2",
     "jsonwebtoken": "^9.0.2",
+    "mongodb": "6.7",
     "mongoose": "^8.4.3",
+    "react-router-dom": "^6.24.0",
     "request": "^2.88.2"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "concurrently": "^8.2.2",
     "nodemon": "^3.1.4"
   }
